@@ -1,0 +1,375 @@
+/*
+ Project Name : Skuire
+ Author Company : Grow Scales
+ Project Date: 30-07-2016
+ Author Website : http://growscales.com/
+ */
+
+
+/*
+================================================
+Common Css
+================================================
+*/
+
+section:hover hr {
+    border-color: #17B878;
+}
+
+
+/*
+===========================================
+button style
+===========================================
+*/
+
+.btn {
+    border: 2px solid #17B878;
+    color: #17b878;
+}
+
+.btn:hover {
+    background-color: #17B878;
+}
+
+
+/*
+===========================================
+main heading
+===========================================
+*/
+
+.main-heading h2 span {
+    color: #17B878;
+}
+
+.overlay::before {
+    background-color: rgba(0, 178, 107, 0.9);
+}
+
+#switcher .colorpicker:hover,
+#switcher .colorpicker:focus {
+    color: #17B878;
+}
+#accordion a.accordion-toggle i,
+.modal-header{
+    background-color: #17B878;
+}
+#accordion a.accordion-toggle i::after {
+    border-color: #17B878 transparent transparent;
+}
+#accordion .panel-heading .accordion-toggle.collapsed i::after{
+    border-color: transparent;
+}
+.nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
+    background-color: #17B878;
+    color:#fff
+}
+/*
+===========================================
+Pre Loader
+===========================================
+*/
+
+#loading {
+    background-color: #17B878;
+}
+
+
+/*
+===========================================
+Header
+===========================================
+*/
+
+
+#slide-nav #menu_nav ul > li > a:hover,
+#slide-nav #menu_nav ul > li > a:focus,
+#slide-nav #menu_nav ul > li.active > a,
+.nav-button ul li a:hover {
+    background-color: #17B878;
+}
+
+#slide-nav #menu_nav > ul > li > a:hover,
+#slide-nav #menu_nav > ul > li > a:focus,
+#slide-nav #menu_nav > ul > li.active > a,
+.nav-button ul li a:hover {
+    background-color: transparent;
+    color: #17B878;
+}
+/*
+===========================================
+Main Banner
+===========================================
+*/
+
+#main-banner .btn.buy:hover {
+    background-color: #17B878;
+    border-color: #17B878;
+}
+
+#banner-text .text .btn {
+    background-color: #17B878;
+}
+
+#main-banner .btn.buy {
+    background-color: transparent;
+}
+#main-banner .banner-main span,
+#banner-text h2 span{
+    color: #17B878;
+}
+
+
+/*
+================================================
+Portfolio
+================================================
+*/
+
+#portfolio .portfolio-item:hover .portfolio-hover {
+    background-color: rgba(0, 178, 107, 0.6);
+}
+
+
+
+
+/*
+===========================================
+Portfolio Detail
+===========================================
+*/
+
+#portfolio-detail a:hover,
+#portfolio-detail a i:hover {
+    border-color: #17B878 !important;
+    color: #17B878 !important;
+}
+
+
+/*
+================================================
+Services
+================================================
+*/
+
+#services .service-block:hover .icon::before {
+    border-color: #17B878;
+}
+
+#services .service-block:hover .icon {
+    background-color: #17B878;
+}
+
+#services .service-block:hover h3 a {
+    color: #17B878;
+}
+
+
+/*
+================================================
+Price Plan
+================================================
+*/
+
+#price .price-inner:hover .btn {
+    background-color: #17B878;
+}
+
+#price .price-inner:hover h3,
+#price .price-inner:hover .price {
+    color: #17B878;
+}
+
+#price .price-block {
+    padding: 2px;
+}
+
+
+/*
+================================================
+counter
+================================================
+*/
+
+#counter .counter-block:hover .count {
+    background-color: #17B878;
+}
+
+#counter .counter-block:hover h3 {
+    color: #17B878;
+}
+
+
+/*
+================================================
+Team
+================================================
+*/
+
+#team .team-image::before,
+#price .price-block .price-inner::after,
+#portfolio.portfolio-2 .portfolio-hover::before{
+    background: #17B878;
+    /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(left, #fff, #17B878);
+    /*Safari 5.1-6*/
+    background: -o-linear-gradient(right, #fff, #17B878);
+    /*Opera 11.1-12*/
+    background: -moz-linear-gradient(right, #fff, #17B878);
+    /*Fx 3.6-15*/
+    background: linear-gradient(to right, #fff, #17B878);
+    /*Standard*/
+}
+
+#team .team-block .team-inner:hover .hover-team {
+    background-color: #17B878;
+}
+
+#team-detail .team-image .team-inner::before {
+    background-color: #17B878;
+}
+
+
+/*
+================================================
+Partner logo
+================================================
+*/
+
+#partner-slider.owl-theme .owl-controls .owl-page span {
+    background: #17B878 none repeat scroll 0 0;
+}
+
+
+/*
+===========================================
+Pagination
+===========================================
+*/
+
+.skuire-pagination .pagination li a:hover {
+    background-color: #17B878;
+}
+
+
+/*
+================================================
+Footer
+================================================
+*/
+
+#footer .main-link a:hover {
+    color: #17B878;
+}
+
+.cd-top.cd-is-visible {
+    background-color: #17B878;
+}
+
+
+/*
+===========================================
+Blog
+===========================================
+*/
+
+.news-block .date {
+    color: #17B878;
+}
+
+.news-block .name span {
+    color: #17B878;
+}
+
+.news-block:hover .news-info,
+.inner #news .news-block:hover .news-info {
+    background-color: #17B878;
+}
+
+.news-block:hover .comments {
+    background-color: #17B878;
+}
+
+
+/*
+================================================
+Blog Detail
+================================================
+*/
+
+#blog-detail .social a:hover {
+    color: #17B878;
+}
+
+
+/*
+================================================
+Comments
+================================================
+*/
+
+.comment .comment-item .reply-button::after {
+    background-color: #17B878;
+}
+
+.reply-button .btn:hover {
+    background-color: #17B878;
+}
+
+.author-image ul.social li a:hover {
+    color: #17B878;
+}
+
+
+/*
+===========================================
+Error Page
+===========================================
+*/
+
+.error404 span {
+    color: #17B878;
+}
+
+
+/*
+================================================
+Contact us
+================================================
+*/
+
+#contact .icon {
+    border: 1px solid #17B878;
+    color: #17B878;
+}
+
+
+/*
+================================================
+Skills
+================================================
+*/
+
+#skill .skill-inner.skill-04 .skill-box {
+    background-color: #17B878;
+}
+
+
+/*
+===========================================
+Coming Soon
+===========================================
+*/
+
+#coming-soon h1 span {
+    color: #17B878;
+}
+
+#countdown.countdown span.string {
+    color: #17B878;
+}
+
+#coming-soon h4 {
+    color: #17B878;
+}
